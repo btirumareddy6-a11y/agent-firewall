@@ -92,15 +92,11 @@ def run_pipeline(user_input):
         return
 
     # STEP 3: Executor runs the plan
-    print("  🔧 Executor running...")
+    print("  Executor running...")
     result = run_agent(EXECUTOR_ID, plan)
     print(f"\n FINAL OUTPUT:\n{result}")
 
 if __name__ == "__main__":
-
-    print(f"Orchestrator : {ORCHESTRATOR_ID}")
-    print(f"Firewall     : {FIREWALL_ID}")
-    print(f"Executor     : {EXECUTOR_ID}")
 
     print()
     print("="*55)
