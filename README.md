@@ -1,4 +1,6 @@
 #  Agent Firewall — Self-Defending Multi-Agent System
+## Watch Demo  
+[Demo](https://www.loom.com/share/8378791915c244e5808ee69b93612d75)
 ## Live Dashboard
 [View Dashboard](https://btirumareddy6-a11y.github.io/agent-firewall/dashboard.html)
 
