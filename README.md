@@ -34,9 +34,18 @@ User Input →  Firewall →  Orchestrator →  Executor →  Verifier →  Outp
 - Data exfiltration attempts
 
 ## How to Run
+```bash
+# Install dependencies
 pip install azure-ai-agents azure-identity python-dotenv
+
+# Login to Azure
 az login
+
+# Set up .env file with your Foundry endpoint and Agent IDs
+# Run the pipeline
 python3 attack_demo.py
+```
+
 
 ##  Built With
 - Microsoft Azure AI Foundry
